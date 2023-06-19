@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { colors } from '../../styles'
 
 
+
 export const ProjectsList = styled.section`
     margin-top:200px;
     display:flex;
@@ -12,6 +13,7 @@ export const ProjectsList = styled.section`
     display:flex;
     justify-content:center;
     h2{
+        font-size:32px;
         border-bottom: 2px solid ${colors.lightRed};
         color:#fff;
     }
@@ -19,7 +21,7 @@ export const ProjectsList = styled.section`
 `
 
 export const ProjectCards = styled.div`
-    margin-top:32px;
+    padding-top:100px;
     ul {
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
@@ -28,6 +30,10 @@ export const ProjectCards = styled.div`
 `
 
 export const Card = styled.div`
+    a{
+        color:white;
+    }
+    cursor:pointer;
     background-color:${colors.lightBlue};
     border-radius:16px;
     height:400px;

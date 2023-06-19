@@ -5,7 +5,7 @@ export const Branding = styled.div`
     display:flex;
 
     .about{
-        margin-top:100px;
+        padding-top:180px;
         flex:50%;
         text-align:justify;
         color:#fff;
@@ -24,7 +24,7 @@ export const Branding = styled.div`
     }
 
     .profile{
-        margin-top:80px;
+        padding-top:100px;
         flex: 50%;
         display:flex;
         justify-content:end;

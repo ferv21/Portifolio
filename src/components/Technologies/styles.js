@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { colors } from '../../styles'
 
 export const Technologies = styled.div` 
-    margin-top:200px;
+    padding-top:200px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -10,6 +10,7 @@ export const Technologies = styled.div`
         display:flex;
         justify-content:center;
         h2{
+            font-size:32px;
             border-bottom: 2px solid ${colors.lightRed};
             color:#fff;
         }
@@ -22,6 +23,7 @@ export const TechCards = styled.ul`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:100px;
     margin-top:100px;
+    margin-bottom: 100px;
     li{
 
         border-radius:8px;
