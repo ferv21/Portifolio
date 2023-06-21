@@ -9,18 +9,22 @@ const Hero = () => (
             <div className='about'>
             <span>-------------- Front-End Developer </span>
             <h1>Olá , eu sou o <span>Fer</span></h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus ullam deleniti! Iure id nostrum, eveniet repudiandae rerum, libero suscipit autem recusandae quam impedit mollitia doloremque distinctio a aliquam corporis.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus ullam deleniti! Iure id nostrum, eveniet repudiandae rerum, libero suscipit autem recusandae quam impedit mollitia doloremque distinctio a aliquam corporis.
+            <p>
+            Olá, meu nome é Fernando Viana e sou estudante de Engenharia de Computação, com o atual foco em desenvolvimento front-end. Possuo habilidades em HTML, CSS, JavaScript, TypeScript, Bootstrap, Sass, Git/Github, React, Jest e Cypress. 
+
+            Estou sempre buscando aprimorar meus conhecimentos. Meu objetivo é me tornar um profissional de destaque na área e contribuir para projetos inovadores. Estou animado para continuar aprendendo e buscando oportunidades para aplicar meu conhecimento.
+
+            Tenho especial interesse em aprender mais sobre o desenvolvimento web e a parte do UI/UX Desing , pois acredito que essa área tem um grande potencial e pode me oferecer oportunidades incríveis no futuro.
             </p>
             <div className='buttons'>   
                 <button>
-                    <a href="#a"> 
+                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/ferv21"> 
                         <BsGithub style={{marginRight:'8px'}}/>
                         Github
                     </a>
                 </button>
                 <button>
-                    <a href="#a"> 
+                    <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/ferv1/"> 
                         <FaLinkedinIn style={{marginRight:'8px'}}/>
                         Linkedin
                     </a>

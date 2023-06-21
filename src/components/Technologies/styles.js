@@ -6,6 +6,11 @@ export const Technologies = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
+
+    @media(max-width:767px){
+        padding-top:50px;
+    }
+
     div {
         display:flex;
         justify-content:center;
@@ -24,6 +29,18 @@ export const TechCards = styled.ul`
     gap:100px;
     margin-top:100px;
     margin-bottom: 100px;
+
+    @media(max-width:820px){
+        grid-template-columns:1fr 1fr 1fr;
+        gap:40px;
+        margin-bottom:0;
+    }
+
+
+    @media(max-width:767px){
+        grid-template-columns:1fr;
+    }
+
     li{
 
         border-radius:8px;

@@ -7,13 +7,13 @@ const Footer = () => (
     <>
         <FooterContainer>
         <div>
-            <a href='www.linkedin.com/in/ferv1'>
+            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/ferv1'>
                 <FaLinkedinIn/>
             </a>
-            <a href='www.linkedin.com/in/ferv1'>
+            <a target='_blank' rel="noopener noreferrer" href='https://github.com/ferv21'>
                 <BsGithub/>
             </a>
-            <a href='www.linkedin.com/in/ferv1'>
+            <a href='mailto:fernandovianadossantos2001@gmail.com'>
                 <HiOutlineMail/>
             </a>
         </div>

@@ -10,6 +10,7 @@ export const ProjectsList = styled.section`
     flex-direction:column;
     align-items:center;
 
+
  >div {
     display:flex;
     justify-content:center;
@@ -27,6 +28,16 @@ export const ProjectCards = styled.div`
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
         gap:120px;
+
+        @media(max-width:820px){
+            grid-template-columns:1fr 1fr;
+            gap:40px;
+            
+        }
+        @media(max-width:767px){
+            grid-template-columns:1fr;
+        }
+
     }
 `
 

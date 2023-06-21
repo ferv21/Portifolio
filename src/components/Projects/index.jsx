@@ -1,4 +1,4 @@
-import { Element } from 'react-scroll';
+import {Element} from 'react-scroll'
 import * as S from "./styles"
 import {BsFillBootstrapFill} from 'react-icons/bs'
 import {SiTypescript , SiReact, SiJavascript, SiSass} from 'react-icons/si'

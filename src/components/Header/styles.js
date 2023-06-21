@@ -4,6 +4,10 @@ import { colors } from '../../styles'
 export const HeaderBar = styled.div`
     background-color:${colors.cardBlue};
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+
+    @media(max-width:767px){
+        padding:16px;
+    }
 `
 
 export const Header = styled.header`
@@ -12,6 +16,14 @@ export const Header = styled.header`
     align-items:center;
     justify-content:space-between;
 
+    @media(max-width:820px){
+        padding:32px 16px;
+    }
+    
+    @media(max-width:767px){
+        flex-direction:column;
+    }
+
     h1  {
         color:white;
     }
@@ -19,6 +31,10 @@ export const Header = styled.header`
     ul{
         display:flex;
         align-items:center;
+        @media(max-width:767px){
+            padding-top:24px;
+        }
+        
         li{
             padding:0 32px;
             font-weight:bold;
@@ -28,22 +44,10 @@ export const Header = styled.header`
             &:hover{
                 color:${colors.lightRed};
             }
+
+            @media(max-width:820px){
+                padding:0 32px;
+            }
         }
     }
-`
-export const Btn = styled.button`
-        
-        padding: 0 8px;
-        border-radius:8px;
-        height:20px;
-        border:none;
-        position:relative;
-        cursor:pointer;
-        background-color:${colors.lightRed};
-        font-weight:bold;
-        font-size:14px;
-        color:#fff;
-        
-    
-    
 `
