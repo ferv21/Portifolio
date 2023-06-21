@@ -1,7 +1,8 @@
 import {Branding} from './styles'
-import foto from '../../assets/death.jpg'
+import foto from '../../assets/profile.jpeg'
 import {BsGithub} from 'react-icons/bs'
 import {FaLinkedinIn} from 'react-icons/fa'
+
 const Hero = () => (
     <>
         <Branding className="container">

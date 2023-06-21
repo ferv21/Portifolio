@@ -1,10 +1,11 @@
+import { Element } from 'react-scroll'
 import {Technologies, TechCards} from './styles'
 import {BsGit, BsFillBootstrapFill} from 'react-icons/bs'
 import {SiTypescript , SiReact, SiSass, SiJavascript} from 'react-icons/si'
 import {IoLogoHtml5 , IoLogoCss3} from 'react-icons/io'
 
 const Tech = () => (
-    <>
+    <Element name='tecnologias'>
         <Technologies className='container'>
             <div>
                 <h2>Tecnologias</h2>
@@ -61,7 +62,7 @@ const Tech = () => (
             </TechCards>
         </Technologies>
 
-    </>
+    </Element>
 )
 
 export default Tech

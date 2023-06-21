@@ -1,3 +1,4 @@
+import { Element } from 'react-scroll';
 import * as S from "./styles"
 import {BsFillBootstrapFill} from 'react-icons/bs'
 import {SiTypescript , SiReact, SiJavascript, SiSass} from 'react-icons/si'
@@ -13,7 +14,7 @@ import restaurante from '../../assets/restaurante.jpeg'
 import todolist from '../../assets/todolist.jpeg'
 
 const Projects = () => (
-    <>
+    <Element name='projetos'>
         <S.ProjectsList className="container">
             <div>  
                 <h2>Projetos</h2>
@@ -236,7 +237,7 @@ const Projects = () => (
                 </ul>
             </S.ProjectCards>
         </S.ProjectsList>
-    </>
+    </Element>
 )
 
 export default Projects

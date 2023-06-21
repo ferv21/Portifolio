@@ -5,6 +5,7 @@ import { colors } from '../../styles'
 
 export const ProjectsList = styled.section`
     margin-top:200px;
+    padding-bottom:100px;
     display:flex;
     flex-direction:column;
     align-items:center;
