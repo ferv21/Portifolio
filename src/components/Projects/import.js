@@ -7,11 +7,13 @@ import myfavoritegames from '../../assets/myfavoritegames.jpeg'
 import testin from '../../assets/testin.jpeg'
 import restaurante from '../../assets/restaurante.jpeg'
 import todolist from '../../assets/todolist.jpeg'
-import gpt3 from '../../assets/gpt3.jpeg'
+import viacep from '../../assets/viacep.jpeg'
 import landingpagelol from '../../assets/landingpagelol.jpeg'
 import apiMercadoLivre from '../../assets/carrinhoApiMercadoLivre.jpeg'
+import pokedex from '../../assets/pokedex.jpeg'
 
 export {
+    pokedex,
     eplay,
     efood,
     disney,
@@ -21,7 +23,7 @@ export {
     testin,
     restaurante,
     todolist,
-    gpt3,
+    viacep,
     landingpagelol,
     apiMercadoLivre
 }

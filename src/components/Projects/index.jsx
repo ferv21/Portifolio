@@ -4,8 +4,8 @@ import {BsFillBootstrapFill} from 'react-icons/bs'
 import {SiTypescript , SiReact, SiJavascript, SiSass} from 'react-icons/si'
 import {IoLogoHtml5 , IoLogoCss3} from 'react-icons/io'
 
-import {apiMercadoLivre, disney, ebactech, efood, eldenring, eplay, gpt3, landingpagelol, myfavoritegames,
-restaurante, testin, todolist} from './import'
+import {apiMercadoLivre, disney, ebactech, efood, eldenring, eplay, viacep, landingpagelol, myfavoritegames,
+restaurante, testin, todolist,pokedex} from './import'
 
 import CardProject from '../CardProject'
 
@@ -63,10 +63,24 @@ const Projects = () => (
                     </li>
                     <li>
                         <CardProject 
-                        projectLink="https://gpt3-react-brown.vercel.app/"
-                        description="Website responsivo sobre inteligência artificial, usando ReactJS e Css."
-                        title="Site GPT-3 OpenAI"
-                        projectImg={gpt3}
+                        projectLink="https://buscadordecep-ghpv.vercel.app/"
+                        description="Buscador de cep usando a api do ViaCep."
+                        title="Buscador de Cep"
+                        projectImg={viacep}
+                        tags1={<SiReact/>}  
+                        nameTag1="ReactJS"
+                        tags2={<SiJavascript/>}
+                        nameTag2="Javascript"
+                        tags3={<IoLogoCss3/>}
+                        nameTag3="Css"
+                        />
+                    </li>
+                    <li>
+                        <CardProject 
+                        projectLink="https://pokedex-theta-five-54.vercel.app/"
+                        description="Buscador de pokemon utilizando a pokeAPI"
+                        title="Pokedex"
+                        projectImg={pokedex}
                         tags1={<SiReact/>}  
                         nameTag1="ReactJS"
                         tags2={<SiJavascript/>}
