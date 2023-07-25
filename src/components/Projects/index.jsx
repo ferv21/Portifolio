@@ -5,7 +5,7 @@ import {SiTypescript , SiReact, SiJavascript, SiSass} from 'react-icons/si'
 import {IoLogoHtml5 , IoLogoCss3} from 'react-icons/io'
 
 import {apiMercadoLivre, disney, ebactech, efood, eldenring, eplay, viacep, landingpagelol, myfavoritegames,
-restaurante, testin, todolist,pokedex} from './import'
+restaurante, testin, todolist,pokedex, nft, shopcart} from './import'
 
 import CardProject from '../CardProject'
 
@@ -63,6 +63,34 @@ const Projects = () => (
                     </li>
                     <li>
                         <CardProject 
+                        projectLink="https://nfthub-react.vercel.app/"
+                        description="Landing Page de Nft que eu fiz utilizando React."
+                        title="NFT-FV"
+                        projectImg={nft}
+                        tags1={<SiReact/>}  
+                        nameTag1="ReactJS"
+                        tags2={<SiJavascript/>}
+                        nameTag2="Javascript"
+                        tags3={<IoLogoCss3/>}
+                        nameTag3="Css"
+                        />
+                    </li>
+                    <li>
+                        <CardProject 
+                        projectLink="https://shop-cart-three.vercel.app/"
+                        description="Loja virtual utilizando React, Typescript e Styled Components. Ainda está em desenvolvimento"
+                        title="ShopCart"
+                        projectImg={shopcart}
+                        tags1={<SiReact/>}  
+                        nameTag1="ReactJS"
+                        tags2={<SiTypescript/>}
+                        nameTag2="Typescript"
+                        tags3={<IoLogoCss3/>}
+                        nameTag3="Css"
+                        />
+                    </li>
+                    <li>
+                        <CardProject 
                         projectLink="https://buscadordecep-ghpv.vercel.app/"
                         description="Buscador de cep usando a api do ViaCep."
                         title="Buscador de Cep"
@@ -92,7 +120,7 @@ const Projects = () => (
                     <li>
                         <CardProject 
                         projectLink="https://shopcart-react-one.vercel.app/"
-                        description="Carrinho de compras feito com ReactJS, utilizando a Api do Mercado Livre. Projeto contém sistema de busca e compras funcionais."
+                        description="Carrinho de compras feito com ReactJS, utilizando a Api do Mercado Livre."
                         title="Carrinho de Compras"
                         projectImg={apiMercadoLivre}
                         tags1={<SiReact/>}  

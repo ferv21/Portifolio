@@ -11,8 +11,12 @@ import viacep from '../../assets/viacep.jpeg'
 import landingpagelol from '../../assets/landingpagelol.jpeg'
 import apiMercadoLivre from '../../assets/carrinhoApiMercadoLivre.jpeg'
 import pokedex from '../../assets/pokedex.jpeg'
+import nft from '../../assets/nft.jpeg'
+import shopcart from '../../assets/shopcart.jpeg'
 
 export {
+    shopcart,
+    nft,
     pokedex,
     eplay,
     efood,
